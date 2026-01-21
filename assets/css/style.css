@@ -268,10 +268,12 @@ h2,
 h3,
 .h3 {
   font-size: var(--font-size-h3);
+  padding-top: 20px;
 }
 
 a {
   transition: var(--transition-time);
+  color: black;
 }
 
 a:focus {
@@ -405,6 +407,10 @@ img {
   text-align: center;
 }
 
+.section__text {
+  width: 70%;
+}
+
 /* Header */
 .header__inner {
   display: flex;
@@ -446,6 +452,7 @@ img {
   text-decoration: none;
   color: var(--color-black);
 }
+.header__nav-active,
 .header__nav a:focus,
 .header__nav a:hover {
   background-color: var(--color-accent-light);
