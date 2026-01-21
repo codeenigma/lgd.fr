@@ -420,8 +420,10 @@ img {
 
 .section__header,
 .section__footer {
-  text-align: center;
+  max-width: var(--width-medium);
   margin-block-end: var(--spacing-larger);
+  margin-inline: auto;
+  text-align: center;
 }
 
 /* Header */
